@@ -5,10 +5,14 @@
 1. Listing of VHDL architecture from source file `mux_3bit_4to1.vhd`. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
 ```vhdl
-architecture Behavioral of mux_3bit_4to1 is
-begin
+with sel_i select
+    y_o <= a_i when "00", 
+           b_i when "01",
+           c_i when "10",
+           d_i when others; 
 
-    -- WRITE YOUR CODE HERE
+
+
 
 end architecture Behavioral;
 ```
