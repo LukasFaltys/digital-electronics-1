@@ -80,6 +80,8 @@ begin
 --------------------------------------------------------------------
 -- Experiments on your own: LED(7:4) indicators
 
+with SW select
+    LED(4) <= a when "000",
 -- Turn LED(4) on if input value is equal to 0, ie "0000"
 -- LED(4) <= WRITE YOUR CODE HERE
 
