@@ -35,6 +35,7 @@ entity t_ff_rst is
     Port ( clk : in STD_LOGIC;
            rst : in STD_LOGIC;
            t : in STD_LOGIC;
+           d : in STD_LOGIC;
            q : out STD_LOGIC;
            q_bar : out STD_LOGIC);
 end t_ff_rst;
@@ -47,23 +48,16 @@ architecture behavioral of t_ff_rst is
     signal sig_q : std_logic;
 begin
     --------------------------------------------------------
-        p_d_ff_rst : process (clk)
+  p_d_ff_rst : process (clk)
     begin
         if rising_edge(clk) then  -- Synchronous process
 
-            if (clk='1' and t='1') then
+            if (rst='1') then
                 q <= '0';
                 q_bar <= '1';
-            elsif (clk='0' and t='1') then
-                q <= '1';
-                q_bar <= '0';    
-            elsif (clk='1' and t='0') then
-                q <= '0';
-                q_bar <= '0';
-             elsif (clk='1' and t='0') then
-                q <= '1';
-                q_bar <= '1';
-                
+            else
+                q <= d;
+                q_bar <= not d;
             
             end if;    
 
@@ -77,15 +71,27 @@ begin
     -- sig_q = /sig_q if t = 1 (inversion)
     --------------------------------------------------------
     p_t_ff_rst : process (clk)
-    begin
-        if rising_edge(clk) then
-
-        -- WRITE YOUR CODE HERE
+        begin
+            if rising_edge(clk) then  -- Synchronous process
+    
+                if (clk='1' and t='1') then
+                    q <= '0';
+                    q_bar <= '1';
+                elsif (clk='0' and t='1') then
+                    q <= '1';
+                    q_bar <= '0';    
+                elsif (clk='1' and t='0') then
+                    q <= '0';
+                    q_bar <= '0';
+                 elsif (clk='1' and t='0') then
+                    q <= '1';
+                    q_bar <= '1';
+                    
+                
+                end if;    
 
         end if;
-    end process p_t_ff_rst;
-
-    -- Output ports are permanently connected to local signal
+    end process p_d_ff_rst;
     q     <= sig_q;
     q_bar <= not sig_q;
 end architecture behavioral;
