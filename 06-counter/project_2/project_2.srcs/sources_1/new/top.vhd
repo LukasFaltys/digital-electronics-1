@@ -42,8 +42,8 @@ entity top is
            CF : out STD_LOGIC;
            CG : out STD_LOGIC;
            AN : out STD_LOGIC_VECTOR (7 downto 0);
-           BTNC : in STD_LOGIC;
-           LED : out STD_LOGIC_VECTOR (12 downto 0));
+           BTNC : in STD_LOGIC
+
 end top;
 
 ----------------------------------------------------------
