@@ -18,7 +18,7 @@
         else 
             sig_cnt  <= sig_cnt -1;
         end if;
-        -- TEST COUNTER DIRECTION HERE
+
 
 
       end if;
