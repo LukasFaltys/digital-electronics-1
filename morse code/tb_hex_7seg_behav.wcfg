@@ -11,64 +11,37 @@
    </db_ref_list>
    <zoom_setting>
       <ZoomStartTime time="0fs"></ZoomStartTime>
-      <ZoomEndTime time="1806001fs"></ZoomEndTime>
-      <Cursor1Time time="1000000fs"></Cursor1Time>
+      <ZoomEndTime time="1820001fs"></ZoomEndTime>
+      <Cursor1Time time="105490fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="67"></NameColumnWidth>
+      <NameColumnWidth column_width="60"></NameColumnWidth>
       <ValueColumnWidth column_width="58"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="13" />
-   <wvobject fp_name="/tb_hex_7seg/sig_dot" type="logic">
-      <obj_property name="ElementShortName">sig_dot</obj_property>
-      <obj_property name="ObjectShortName">sig_dot</obj_property>
+   <WVObjectSize size="5" />
+   <wvobject fp_name="/tb_hex_7seg/button1" type="logic">
+      <obj_property name="ElementShortName">button1</obj_property>
+      <obj_property name="ObjectShortName">button1</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb_hex_7seg/sig_line" type="logic">
-      <obj_property name="ElementShortName">sig_line</obj_property>
-      <obj_property name="ObjectShortName">sig_line</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_hex_7seg/sig_res" type="logic">
-      <obj_property name="ElementShortName">sig_res</obj_property>
-      <obj_property name="ObjectShortName">sig_res</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_hex_7seg/sig_send" type="logic">
-      <obj_property name="ElementShortName">sig_send</obj_property>
-      <obj_property name="ObjectShortName">sig_send</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_hex_7seg/sig_dot" type="logic">
-      <obj_property name="ElementShortName">sig_dot</obj_property>
-      <obj_property name="ObjectShortName">sig_dot</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_hex_7seg/sig_line" type="logic">
-      <obj_property name="ElementShortName">sig_line</obj_property>
-      <obj_property name="ObjectShortName">sig_line</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_hex_7seg/sig_res" type="logic">
-      <obj_property name="ElementShortName">sig_res</obj_property>
-      <obj_property name="ObjectShortName">sig_res</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_hex_7seg/sig_send" type="logic">
-      <obj_property name="ElementShortName">sig_send</obj_property>
-      <obj_property name="ObjectShortName">sig_send</obj_property>
+   <wvobject fp_name="/tb_hex_7seg/button2" type="logic">
+      <obj_property name="ElementShortName">button2</obj_property>
+      <obj_property name="ObjectShortName">button2</obj_property>
    </wvobject>
    <wvobject fp_name="/tb_hex_7seg/uut_morse_try/sendout1" type="logic">
       <obj_property name="ElementShortName">sendout1</obj_property>
       <obj_property name="ObjectShortName">sendout1</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb_hex_7seg/uut_morse_try/sendout3" type="logic">
-      <obj_property name="ElementShortName">sendout3</obj_property>
-      <obj_property name="ObjectShortName">sendout3</obj_property>
+   <wvobject fp_name="/tb_hex_7seg/uut_morse_try/sigin1" type="other">
+      <obj_property name="ElementShortName">sigin1</obj_property>
+      <obj_property name="ObjectShortName">sigin1</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
    </wvobject>
-   <wvobject fp_name="/tb_hex_7seg/uut_morse_try/sendout4" type="logic">
-      <obj_property name="ElementShortName">sendout4</obj_property>
-      <obj_property name="ObjectShortName">sendout4</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_hex_7seg/uut_morse_try/sendout5" type="logic">
-      <obj_property name="ElementShortName">sendout5</obj_property>
-      <obj_property name="ObjectShortName">sendout5</obj_property>
-   </wvobject>
-   <wvobject fp_name="/tb_hex_7seg/uut_morse_try/sendout2" type="logic">
-      <obj_property name="ElementShortName">sendout2</obj_property>
-      <obj_property name="ObjectShortName">sendout2</obj_property>
+   <wvobject fp_name="/tb_hex_7seg/uut_morse_try/sigin2" type="other">
+      <obj_property name="ElementShortName">sigin2</obj_property>
+      <obj_property name="ObjectShortName">sigin2</obj_property>
    </wvobject>
 </wave_config>

@@ -1,54 +1,38 @@
-------------------------------------------------------------
---
--- Testbench for 7-segment display decoder.
--- Nexys A7-50T, xc7a50ticsg324-1L
--- TerosHDL, Vivado v2020.2
---
--- Copyright (c) 2020 Tomas Fryza
--- Dept. of Radio Electronics, Brno Univ. of Technology, Czechia
--- This work is licensed under the terms of the MIT license.
---
-------------------------------------------------------------
-
 library ieee;
-  use ieee.std_logic_1164.all;
-  use ieee.numeric_std.all; -- Definition of "to_unsigned"
+use ieee.std_logic_1164.all;
 
-------------------------------------------------------------
--- Entity declaration for testbench
-------------------------------------------------------------
+entity morse_transmitter_tb is
+end entity;
 
-entity tb_hex_7seg is
--- Entity of testbench is always empty
-end entity tb_hex_7seg;
+architecture testbench of morse_transmitter_tb is
 
-------------------------------------------------------------
--- Architecture body for testbench
-------------------------------------------------------------
-
-architecture testbench of tb_hex_7seg is
-
-  -- Testbench local signals
     signal clk      : std_logic := '0';
     signal button1  : std_logic := '0';
     signal button2  : std_logic := '0';
     signal morse_out: std_logic := '0';
 
+    component morse_transmitter is
+        port (
+            clk       : in  std_logic;
+            button1   : in  std_logic;
+            button2   : in  std_logic;
+            morse_out : out std_logic
+        );
+    end component;
+
 begin
 
-  -- Connecting testbench signals with decoder entity
-  -- (Unit Under Test)
-  uut_morse_try : entity work.morse_try
+    -- P?ipojení testovaného modulu
+    UUT : morse_transmitter
     port map (
-      carka => button2,
-      tecka => button1
-
+        clk       => clk,
+        button1   => button1,
+        button2   => button2,
+        morse_out => morse_out
     );
 
-  --------------------------------------------------------
-  -- Data generation process
-  --------------------------------------------------------
-  process
+    -- Generátor hodinového signálu
+    process
     begin
         while now < 1000 ns loop
             clk <= '0';
