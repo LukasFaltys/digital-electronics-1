@@ -34,11 +34,17 @@ Pro realizaci tohoto projektu byla použity dvě desky Nexys A7 50T (Jedna pro v
 
 Celková funkčnost designu spočívá čistě v tom, že my nastavíme nějakou kombinaci a poté odešleme. Tlačítkem na odeslání se nám podle zadané kombinaci vytvoří signál s parametry: tečka 2s, čárka 4s a mezera 6s. Zadaná kombinace je zobrazená také na 7 segmentových displejích. V dekodéru je násleně vytvořený signál pomocí podmínkových funkcí signál zpět převeden do podoby Morseova kódu, který se zobrazí na 7 segmentových displejích.
 
-### Odkazy na soubory: 
+### Odkazy na soubory vysílače: 
 Design source: [zde](https://github.com/LukasFaltys/digital-electronics-1/blob/main/Project/Soubory%20projektu%20-%20Vivavo/morse%20code/morse%20code.srcs/sources_1/new/morse_try.vhd)     
 Testbench source: [zde](https://github.com/LukasFaltys/digital-electronics-1/blob/main/Project/Soubory%20projektu%20-%20Vivavo/morse%20code/morse%20code.srcs/sim_1/new/morse_TB.vhd)     
 Top file: [zde](https://github.com/LukasFaltys/digital-electronics-1/blob/main/Project/Soubory%20projektu%20-%20Vivavo/morse%20code/morse%20code.srcs/sources_1/new/TOP.vhd)     
 Constrain file: [zde](https://github.com/LukasFaltys/digital-electronics-1/blob/main/Project/Soubory%20projektu%20-%20Vivavo/morse%20code/morse%20code.srcs/constrs_1/new/cnst.xdc)
+
+### Odkazy na soubory přijímače: 
+Design source: [zde]https://github.com/LukasFaltys/digital-electronics-1/blob/main/Project/Soubory%20projektu%20-%20Vivavo/morse%20code/morse%20code.srcs/sources_1/new/morse_try.vhd     
+Testbench source: [zde]https://github.com/LukasFaltys/digital-electronics-1/blob/main/Project/Soubory%20projektu%20-%20Vivavo/morse%20code/morse%20code.srcs/sim_1/new/morse_TB.vhd    
+Top file: [zde]https://github.com/LukasFaltys/digital-electronics-1/blob/main/Project/Soubory%20projektu%20-%20Vivavo/morse%20code/morse%20code.srcs/sources_1/new/TOP.vhd     
+Constrain file: [zde]https://github.com/LukasFaltys/digital-electronics-1/blob/main/Project/Soubory%20projektu%20-%20Vivavo/morse%20code/morse%20code.srcs/constrs_1/new/cnst.xdc
 
 
 
