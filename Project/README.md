@@ -41,10 +41,10 @@ Top file: [zde](https://github.com/LukasFaltys/digital-electronics-1/blob/main/P
 Constrain file: [zde](https://github.com/LukasFaltys/digital-electronics-1/blob/main/Project/Soubory%20projektu%20-%20Vivavo/morse%20code/morse%20code.srcs/constrs_1/new/cnst.xdc)
 
 ### Odkazy na soubory přijímače: 
-Design source: [zde]https://github.com/LukasFaltys/digital-electronics-1/blob/main/Project/Soubory%20projektu%20-%20Vivavo/morse%20code/morse%20code.srcs/sources_1/new/morse_try.vhd     
-Testbench source: [zde]https://github.com/LukasFaltys/digital-electronics-1/blob/main/Project/Soubory%20projektu%20-%20Vivavo/morse%20code/morse%20code.srcs/sim_1/new/morse_TB.vhd    
-Top file: [zde]https://github.com/LukasFaltys/digital-electronics-1/blob/main/Project/Soubory%20projektu%20-%20Vivavo/morse%20code/morse%20code.srcs/sources_1/new/TOP.vhd     
-Constrain file: [zde]https://github.com/LukasFaltys/digital-electronics-1/blob/main/Project/Soubory%20projektu%20-%20Vivavo/morse%20code/morse%20code.srcs/constrs_1/new/cnst.xdc
+Design source: [zde](https://github.com/LukasFaltys/digital-electronics-1/blob/main/Project/Soubory%20projektu%20-%20Vivavo/morse%20code/morse%20code.srcs/sources_1/new/morse_try.vhd)     
+Testbench source: [zde](https://github.com/LukasFaltys/digital-electronics-1/blob/main/Project/Soubory%20projektu%20-%20Vivavo/morse%20code/morse%20code.srcs/sim_1/new/morse_TB.vhd )   
+Top file: [zde](https://github.com/LukasFaltys/digital-electronics-1/blob/main/Project/Soubory%20projektu%20-%20Vivavo/morse%20code/morse%20code.srcs/sources_1/new/TOP.vhd )    
+Constrain file: [zde](https://github.com/LukasFaltys/digital-electronics-1/blob/main/Project/Soubory%20projektu%20-%20Vivavo/morse%20code/morse%20code.srcs/constrs_1/new/cnst.xdc)
 
 
 
