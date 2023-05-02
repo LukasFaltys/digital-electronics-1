@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_hex_7seg_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_hex_7seg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000000000 s"></ZoomStartTime>
+      <ZoomEndTime time="683.000000000001 s"></ZoomEndTime>
+      <Cursor1Time time="215.814193419142 s"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="73"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/tb_hex_7seg/uut_morse_try/btn1" type="logic">
+      <obj_property name="ElementShortName">btn1</obj_property>
+      <obj_property name="ObjectShortName">btn1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hex_7seg/uut_morse_try/btn2" type="logic">
+      <obj_property name="ElementShortName">btn2</obj_property>
+      <obj_property name="ObjectShortName">btn2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hex_7seg/uut_morse_try/btn3" type="logic">
+      <obj_property name="ElementShortName">btn3</obj_property>
+      <obj_property name="ObjectShortName">btn3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hex_7seg/uut_morse_try/btn4" type="logic">
+      <obj_property name="ElementShortName">btn4</obj_property>
+      <obj_property name="ObjectShortName">btn4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hex_7seg/uut_morse_try/btn5" type="logic">
+      <obj_property name="ElementShortName">btn5</obj_property>
+      <obj_property name="ObjectShortName">btn5</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hex_7seg/uut_morse_try/btn6" type="logic">
+      <obj_property name="ElementShortName">btn6</obj_property>
+      <obj_property name="ObjectShortName">btn6</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hex_7seg/uut_morse_try/btn7" type="logic">
+      <obj_property name="ElementShortName">btn7</obj_property>
+      <obj_property name="ObjectShortName">btn7</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hex_7seg/uut_morse_try/btn8" type="logic">
+      <obj_property name="ElementShortName">btn8</obj_property>
+      <obj_property name="ObjectShortName">btn8</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hex_7seg/uut_morse_try/btn9" type="logic">
+      <obj_property name="ElementShortName">btn9</obj_property>
+      <obj_property name="ObjectShortName">btn9</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hex_7seg/uut_morse_try/btn10" type="logic">
+      <obj_property name="ElementShortName">btn10</obj_property>
+      <obj_property name="ObjectShortName">btn10</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hex_7seg/uut_morse_try/seg1" type="array">
+      <obj_property name="ElementShortName">seg1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">seg1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hex_7seg/uut_morse_try/position" type="array">
+      <obj_property name="ElementShortName">position[3:0]</obj_property>
+      <obj_property name="ObjectShortName">position[3:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hex_7seg/uut_morse_try/send" type="logic">
+      <obj_property name="ElementShortName">send</obj_property>
+      <obj_property name="ObjectShortName">send</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hex_7seg/uut_morse_try/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_hex_7seg/uut_morse_try/sendout" type="logic">
+      <obj_property name="ElementShortName">sendout</obj_property>
+      <obj_property name="ObjectShortName">sendout</obj_property>
+   </wvobject>
+</wave_config>
